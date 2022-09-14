@@ -63,8 +63,8 @@ body {
 }
 #result {
   position: fixed;
-  top: 10%; 
-  left: 10%;
+  top: 50%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
@@ -177,8 +177,9 @@ button {
   backdrop-filter: blur(5px);
   height: 100vh;
   width: 100%;
-  position: fixed;
-  top: 0;
+  position: relative;
+  top: 50;
+  right: 50;
 }
 
 @media only screen and (max-width: 700px) {
