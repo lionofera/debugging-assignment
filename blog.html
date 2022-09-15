@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
+</head>
+<body>
+    <h1 class="text-center fs-1 fw-bold">Blog</h1>
+    <section class="container mb-3">
+            <div class="card mb-3">
+                <h5 class="card-header">Question-1</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Difference between local storage and session storage.</h5>
+                  <p class="card-text">sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.
+                [reference:https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage]
+                  </p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <h5 class="card-header">Question-2</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Difference between global scope and block scope.</h5>
+                  <p class="card-text">The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.
+                    Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}.
+                [reference:https://linuxhint.com/javascript-global-function-block-scope-explained/]
+                  </p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <h5 class="card-header">Question-3</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Undefined in Javascript</h5>
+                  <p class="card-text">The undefined is a primitive type in JavaScript. So the undefined is a type. And the undefined type has exactly one value that is undefined.
+
+                JavaScript uses the undefined value in the following situations.
+                1) Accessing an uninitialized variable,
+                2) Accessing a non-existing property of an object,
+                3) A function that doesn’t have a return statement implicitly returns undefined. 
+                4) Accessing out-of-bounds array elements
+
+                [reference:https://www.javascripttutorial.net/javascript-undefined/]
+                  </p>
+                </div>
+            </div>
+            <div class="card">
+                <h5 class="card-header">Question-4</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Event loop in JavaScript</h5>
+                  <p class="card-text">The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop. Each event is just a function callback.
+                [reference:https://blog.sessionstack.com]
+                  </p>
+                </div>
+            </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
